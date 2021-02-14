@@ -1,5 +1,7 @@
 # Strapi application
 
+GraphQL allows you to declaratively express your data needs. This is done with queries, queries are the representation of the data you need.
+
 ```
 git branch -M mai
 

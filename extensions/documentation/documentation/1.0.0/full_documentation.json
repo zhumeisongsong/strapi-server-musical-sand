@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "02/12/2021 3:03:01 PM"
+    "x-generation-date": "02/15/2021 12:44:30 AM"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -3176,13 +3176,13 @@
           "id": {
             "type": "string"
           },
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Content": {
+          "content": {
             "type": "string"
           },
-          "Thumbnail": {
+          "thumbnail": {
             "required": [
               "id",
               "name",
@@ -3257,10 +3257,10 @@
       },
       "NewPost": {
         "properties": {
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Content": {
+          "content": {
             "type": "string"
           },
           "published_at": {
@@ -3283,13 +3283,13 @@
           "id": {
             "type": "string"
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "Thumbnail": {
+          "thumbnail": {
             "required": [
               "id",
               "name",
@@ -3356,22 +3356,22 @@
               }
             }
           },
-          "DateStart": {
+          "dateStart": {
             "type": "string",
             "format": "date"
           },
-          "DateEnd": {
+          "dateEnd": {
             "type": "string",
             "format": "date"
           },
-          "MyRole": {
+          "myRole": {
             "type": "string"
           },
-          "IsOSS": {
+          "isOSS": {
             "type": "boolean",
             "default": false
           },
-          "Images": {
+          "images": {
             "required": [
               "id",
               "name",
@@ -3438,13 +3438,13 @@
               }
             }
           },
-          "Issue": {
+          "issue": {
             "type": "string"
           },
-          "Solution": {
+          "solution": {
             "type": "string"
           },
-          "Result": {
+          "result": {
             "type": "string"
           },
           "published_at": {
@@ -3455,34 +3455,34 @@
       },
       "NewProject": {
         "properties": {
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "DateStart": {
+          "dateStart": {
             "type": "string",
             "format": "date"
           },
-          "DateEnd": {
+          "dateEnd": {
             "type": "string",
             "format": "date"
           },
-          "MyRole": {
+          "myRole": {
             "type": "string"
           },
-          "IsOSS": {
+          "isOSS": {
             "type": "boolean",
             "default": false
           },
-          "Issue": {
+          "issue": {
             "type": "string"
           },
-          "Solution": {
+          "solution": {
             "type": "string"
           },
-          "Result": {
+          "result": {
             "type": "string"
           },
           "published_at": {

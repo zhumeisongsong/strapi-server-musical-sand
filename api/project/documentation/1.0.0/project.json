@@ -522,13 +522,13 @@
           "id": {
             "type": "string"
           },
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "Thumbnail": {
+          "thumbnail": {
             "required": [
               "id",
               "name",
@@ -595,22 +595,22 @@
               }
             }
           },
-          "DateStart": {
+          "dateStart": {
             "type": "string",
             "format": "date"
           },
-          "DateEnd": {
+          "dateEnd": {
             "type": "string",
             "format": "date"
           },
-          "MyRole": {
+          "myRole": {
             "type": "string"
           },
-          "IsOSS": {
+          "isOSS": {
             "type": "boolean",
             "default": false
           },
-          "Images": {
+          "images": {
             "required": [
               "id",
               "name",
@@ -677,13 +677,13 @@
               }
             }
           },
-          "Issue": {
+          "issue": {
             "type": "string"
           },
-          "Solution": {
+          "solution": {
             "type": "string"
           },
-          "Result": {
+          "result": {
             "type": "string"
           },
           "published_at": {
@@ -694,34 +694,34 @@
       },
       "NewProject": {
         "properties": {
-          "Name": {
+          "name": {
             "type": "string"
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "DateStart": {
+          "dateStart": {
             "type": "string",
             "format": "date"
           },
-          "DateEnd": {
+          "dateEnd": {
             "type": "string",
             "format": "date"
           },
-          "MyRole": {
+          "myRole": {
             "type": "string"
           },
-          "IsOSS": {
+          "isOSS": {
             "type": "boolean",
             "default": false
           },
-          "Issue": {
+          "issue": {
             "type": "string"
           },
-          "Solution": {
+          "solution": {
             "type": "string"
           },
-          "Result": {
+          "result": {
             "type": "string"
           },
           "published_at": {

@@ -522,13 +522,13 @@
           "id": {
             "type": "string"
           },
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Content": {
+          "content": {
             "type": "string"
           },
-          "Thumbnail": {
+          "thumbnail": {
             "required": [
               "id",
               "name",
@@ -603,10 +603,10 @@
       },
       "NewPost": {
         "properties": {
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Content": {
+          "content": {
             "type": "string"
           },
           "published_at": {
