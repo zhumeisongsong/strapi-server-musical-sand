@@ -1,0 +1,65 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Thumbnail": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "DateStart": {
+      "type": "date"
+    },
+    "DateEnd": {
+      "type": "date"
+    },
+    "MyRole": {
+      "type": "richtext"
+    },
+    "IsOSS": {
+      "type": "boolean",
+      "default": false
+    },
+    "Images": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Issue": {
+      "type": "richtext"
+    },
+    "Solution": {
+      "type": "richtext"
+    },
+    "Result": {
+      "type": "richtext"
+    }
+  }
+}
