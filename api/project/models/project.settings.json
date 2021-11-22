@@ -42,7 +42,7 @@
       "default": false
     },
     "images": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images",
