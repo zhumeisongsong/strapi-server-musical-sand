@@ -11,7 +11,7 @@
     core-js "^3.4.0"
     lodash.xorby "^4.7.0"
 
-"@apollo/protobufjs@1.2.2", "@apollo/protobufjs@^1.0.3":
+"@apollo/protobufjs@1.2.2":
   version "1.2.2"
   resolved "https://registry.nlark.com/@apollo/protobufjs/download/@apollo/protobufjs-1.2.2.tgz#4bd92cd7701ccaef6d517cdb75af2755f049f87c"
   dependencies:
@@ -67,7 +67,7 @@
   version "7.16.4"
   resolved "https://registry.npmmirror.com/@babel/compat-data/download/@babel/compat-data-7.16.4.tgz#081d6bbc336ec5c2435c6346b2ae1fb98b5ac68e"
 
-"@babel/core@^7.13.16":
+"@babel/core@^7.14.0":
   version "7.16.0"
   resolved "https://registry.npmmirror.com/@babel/core/download/@babel/core-7.16.0.tgz?cache=0&sync_timestamp=1635560597244&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fcore%2Fdownload%2F%40babel%2Fcore-7.16.0.tgz#c4ff44046f5fe310525cc9eb4ef5147f0c5374d4"
   dependencies:
@@ -861,7 +861,7 @@
     "@babel/plugin-transform-react-jsx-development" "^7.16.0"
     "@babel/plugin-transform-react-pure-annotations" "^7.16.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.10.5", "@babel/runtime@^7.12.0", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.13.10", "@babel/runtime@^7.13.17", "@babel/runtime@^7.15.4", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5", "@babel/runtime@^7.6.2", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2":
   version "7.16.3"
   resolved "https://registry.npmmirror.com/@babel/runtime/download/@babel/runtime-7.16.3.tgz?cache=0&sync_timestamp=1636495894093&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40babel%2Fruntime%2Fdownload%2F%40babel%2Fruntime-7.16.3.tgz#b86f0db02a04187a3c17caa77de69840165d42d5"
   dependencies:
@@ -896,20 +896,20 @@
     "@babel/helper-validator-identifier" "^7.15.7"
     to-fast-properties "^2.0.0"
 
-"@buffetjs/core@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/core/download/@buffetjs/core-3.3.5.tgz#45975b00b4a694cb04b9d53bf2a242149f573753"
+"@buffetjs/core@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/core/download/@buffetjs/core-3.3.8.tgz#59899e85ccc238b57ec0d4fcbe9b160c480e5c00"
   dependencies:
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@fortawesome/fontawesome-svg-core" "^1.2.25"
     "@fortawesome/free-regular-svg-icons" "^5.11.2"
     "@fortawesome/free-solid-svg-icons" "^5.11.2"
     "@fortawesome/react-fontawesome" "^0.1.4"
     invariant "^2.2.4"
-    lodash "4.17.20"
+    lodash "4.17.21"
     moment "^2.24.0"
     prop-types "^15.7.2"
     rc-input-number "^4.5.0"
@@ -919,31 +919,31 @@
     react-with-direction "^1.3.1"
     reactstrap "^8.5.1"
 
-"@buffetjs/custom@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/custom/download/@buffetjs/custom-3.3.5.tgz#4fd7c8b7811f55e336bf26f04e6125f2ec2c00dd"
+"@buffetjs/custom@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/custom/download/@buffetjs/custom-3.3.8.tgz#d7e73d9043ec34380410cc1163236df7443a70e9"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
-    lodash "4.17.20"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
+    lodash "4.17.21"
     moment "^2.24.0"
     prop-types "^15.5.10"
     react-moment-proptypes "^1.7.0"
 
-"@buffetjs/hooks@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/hooks/download/@buffetjs/hooks-3.3.5.tgz#31630c695c924f81ab29ba4fc36679834095e04f"
+"@buffetjs/hooks@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/hooks/download/@buffetjs/hooks-3.3.8.tgz#0b03b1aa9cf2236861d5e8533567baa8123fa7ed"
 
-"@buffetjs/icons@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/icons/download/@buffetjs/icons-3.3.5.tgz#f74bb2fe0be1c183c02bc73321c87641f2c12f95"
+"@buffetjs/icons@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/icons/download/@buffetjs/icons-3.3.8.tgz#289fa686049e467eebb1036dc9624fc70f2d9b8b"
   dependencies:
     prop-types "^15.5.10"
 
-"@buffetjs/styles@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/styles/download/@buffetjs/styles-3.3.5.tgz#c222ede37abaf3d6cfe09eea7ee591e04c818894"
+"@buffetjs/styles@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/styles/download/@buffetjs/styles-3.3.8.tgz#932dca9e1c49e3c6717260f1ad784ec8595aec35"
   dependencies:
     "@fortawesome/fontawesome-free" "^5.12.0"
     "@fortawesome/fontawesome-svg-core" "^1.2.22"
@@ -954,12 +954,12 @@
     react-dates "^21.1.0"
     react-tooltip "^4.2.11"
 
-"@buffetjs/utils@3.3.5":
-  version "3.3.5"
-  resolved "https://registry.npmmirror.com/@buffetjs/utils/download/@buffetjs/utils-3.3.5.tgz#ad46ac0ab7eb87bb124ba66e2ecdadfe89137e75"
+"@buffetjs/utils@3.3.8":
+  version "3.3.8"
+  resolved "https://registry.npmmirror.com/@buffetjs/utils/download/@buffetjs/utils-3.3.8.tgz#d21ef4c09bb2173e2a7465d39805237ade06b235"
   dependencies:
-    lodash "4.17.20"
-    yup "^0.27.0"
+    lodash "4.17.21"
+    yup "^0.32.9"
 
 "@casl/ability@^4.1.5":
   version "4.1.6"
@@ -1037,9 +1037,9 @@
   version "0.2.5"
   resolved "https://registry.npm.taobao.org/@emotion/weak-memoize/download/@emotion/weak-memoize-0.2.5.tgz#8eed982e2ee6f7f4e44c253e12962980791efd46"
 
-"@fingerprintjs/fingerprintjs@3.0.7":
-  version "3.0.7"
-  resolved "https://registry.npmmirror.com/@fingerprintjs/fingerprintjs/download/@fingerprintjs/fingerprintjs-3.0.7.tgz#d9ce467036bb96b01137b6e3583db06594cc3f04"
+"@fingerprintjs/fingerprintjs@3.1.1":
+  version "3.1.1"
+  resolved "https://registry.npmmirror.com/@fingerprintjs/fingerprintjs/download/@fingerprintjs/fingerprintjs-3.1.1.tgz#381842ca0e4bdae5c3f4653601a12fe2b57923a9"
   dependencies:
     tslib "^2.0.1"
 
@@ -1457,6 +1457,10 @@
   dependencies:
     "@types/koa" "*"
 
+"@types/lodash@^4.14.175":
+  version "4.14.177"
+  resolved "https://registry.npmmirror.com/@types/lodash/download/@types/lodash-4.14.177.tgz#f70c0d19c30fab101cad46b52be60363c43c4578"
+
 "@types/long@^4.0.0":
   version "4.0.1"
   resolved "https://registry.npmmirror.com/@types/long/download/@types/long-4.0.1.tgz#459c65fa1867dafe6a8f322c4c51695663cc55e9"
@@ -1868,11 +1872,11 @@ apollo-link@^1.2.14:
     tslib "^1.9.3"
     zen-observable-ts "^0.8.21"
 
-apollo-reporting-protobuf@^0.6.2:
-  version "0.6.2"
-  resolved "https://registry.npmmirror.com/apollo-reporting-protobuf/download/apollo-reporting-protobuf-0.6.2.tgz#5572866be9b77f133916532b10e15fbaa4158304"
+apollo-reporting-protobuf@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.npmmirror.com/apollo-reporting-protobuf/download/apollo-reporting-protobuf-0.7.0.tgz#622352d3eea943dff2647741a509b39d464f98a9"
   dependencies:
-    "@apollo/protobufjs" "^1.0.3"
+    "@apollo/protobufjs" "1.2.2"
 
 apollo-reporting-protobuf@^0.8.0:
   version "0.8.0"
@@ -1880,19 +1884,13 @@ apollo-reporting-protobuf@^0.8.0:
   dependencies:
     "@apollo/protobufjs" "1.2.2"
 
-apollo-server-caching@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.npmmirror.com/apollo-server-caching/download/apollo-server-caching-0.6.0.tgz#3140a023ce0be8c43ba0b2f5be9cc5d15d1a32f6"
-  dependencies:
-    lru-cache "^6.0.0"
-
 apollo-server-caching@^0.7.0:
   version "0.7.0"
   resolved "https://registry.npmmirror.com/apollo-server-caching/download/apollo-server-caching-0.7.0.tgz#e6d1e68e3bb571cba63a61f60b434fb771c6ff39"
   dependencies:
     lru-cache "^6.0.0"
 
-apollo-server-core@^2.23.0:
+apollo-server-core@^2.24.0:
   version "2.25.3"
   resolved "https://registry.npmmirror.com/apollo-server-core/download/apollo-server-core-2.25.3.tgz#1a649fd14b3928f5b6e65f0002b380fcfde56862"
   dependencies:
@@ -1929,7 +1927,7 @@ apollo-server-env@^2.4.5:
     node-fetch "^2.1.2"
     util.promisify "^1.0.0"
 
-apollo-server-env@^3.0.0, apollo-server-env@^3.1.0:
+apollo-server-env@^3.1.0:
   version "3.1.0"
   resolved "https://registry.npmmirror.com/apollo-server-env/download/apollo-server-env-3.1.0.tgz#0733c2ef50aea596cc90cf40a53f6ea2ad402cd0"
   dependencies:
@@ -1940,9 +1938,9 @@ apollo-server-errors@^2.5.0:
   version "2.5.0"
   resolved "https://registry.npmmirror.com/apollo-server-errors/download/apollo-server-errors-2.5.0.tgz#5d1024117c7496a2979e3e34908b5685fe112b68"
 
-apollo-server-koa@2.23.0:
-  version "2.23.0"
-  resolved "https://registry.npmmirror.com/apollo-server-koa/download/apollo-server-koa-2.23.0.tgz#c2a0915955a65e32f6ac61e239bbdc27eefd182c"
+apollo-server-koa@2.24.0:
+  version "2.24.0"
+  resolved "https://registry.npmmirror.com/apollo-server-koa/download/apollo-server-koa-2.24.0.tgz#696673df68342e12abc036054759bcb460686168"
   dependencies:
     "@apollographql/graphql-playground-html" "1.6.27"
     "@koa/cors" "^2.2.1"
@@ -1952,8 +1950,8 @@ apollo-server-koa@2.23.0:
     "@types/koa-compose" "^3.2.2"
     "@types/koa__cors" "^2.2.1"
     accepts "^1.3.5"
-    apollo-server-core "^2.23.0"
-    apollo-server-types "^0.7.0"
+    apollo-server-core "^2.24.0"
+    apollo-server-types "^0.8.0"
     graphql-subscriptions "^1.0.0"
     graphql-tools "^4.0.8"
     koa "2.13.1"
@@ -1967,13 +1965,13 @@ apollo-server-plugin-base@^0.13.0:
   dependencies:
     apollo-server-types "^0.9.0"
 
-apollo-server-types@^0.7.0:
-  version "0.7.0"
-  resolved "https://registry.npmmirror.com/apollo-server-types/download/apollo-server-types-0.7.0.tgz#a9b62974ada5da5edb6157a41d8ddb993b57203a"
+apollo-server-types@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmmirror.com/apollo-server-types/download/apollo-server-types-0.8.0.tgz#5462c99e93c5b6896d686bc234c05850059b2efe"
   dependencies:
-    apollo-reporting-protobuf "^0.6.2"
-    apollo-server-caching "^0.6.0"
-    apollo-server-env "^3.0.0"
+    apollo-reporting-protobuf "^0.7.0"
+    apollo-server-caching "^0.7.0"
+    apollo-server-env "^3.1.0"
 
 apollo-server-types@^0.9.0:
   version "0.9.0"
@@ -2306,7 +2304,7 @@ bl@^2.2.1:
     readable-stream "^2.3.5"
     safe-buffer "^5.1.1"
 
-bl@^4.0.3:
+bl@^4.0.3, bl@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npm.taobao.org/bl/download/bl-4.1.0.tgz#451535264182bec2fbbc83a62ab98cf11d9f7b3a"
   dependencies:
@@ -2703,7 +2701,7 @@ chalk@1.1.3, chalk@^1.1.3:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.0.1, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
+chalk@^2.0.0, chalk@^2.3.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.npmmirror.com/chalk/download/chalk-2.4.2.tgz?cache=0&sync_timestamp=1632811812760&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fchalk%2Fdownload%2Fchalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   dependencies:
@@ -2718,7 +2716,7 @@ chalk@^3.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-chalk@^4.1.1:
+chalk@^4.1.0, chalk@^4.1.1:
   version "4.1.2"
   resolved "https://registry.npmmirror.com/chalk/download/chalk-4.1.2.tgz?cache=0&sync_timestamp=1632811812760&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fchalk%2Fdownload%2Fchalk-4.1.2.tgz#aac4e2b7734a740867aeb16bf02aad556a1e7a01"
   dependencies:
@@ -2835,7 +2833,13 @@ cli-cursor@^2.1.0:
   dependencies:
     restore-cursor "^2.0.0"
 
-cli-spinners@^2.0.0:
+cli-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.nlark.com/cli-cursor/download/cli-cursor-3.1.0.tgz#264305a7ae490d1d03bf0c9ba7c925d1753af307"
+  dependencies:
+    restore-cursor "^3.1.0"
+
+cli-spinners@^2.5.0:
   version "2.6.1"
   resolved "https://registry.npmmirror.com/cli-spinners/download/cli-spinners-2.6.1.tgz?cache=0&sync_timestamp=1633109901725&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fcli-spinners%2Fdownload%2Fcli-spinners-2.6.1.tgz#adc954ebe281c37a6319bfa401e6dd2488ffb70d"
 
@@ -4078,6 +4082,10 @@ fill-range@^7.0.1:
   dependencies:
     to-regex-range "^5.0.1"
 
+filter-obj@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.nlark.com/filter-obj/download/filter-obj-1.1.0.tgz#9b311112bc6c6127a16e016c6c5d7f19e0805c5b"
+
 finalhandler@~1.1.2:
   version "1.1.2"
   resolved "https://registry.nlark.com/finalhandler/download/finalhandler-1.1.2.tgz#b7e7d000ffd11938d0fdb053506f6ebabe9f587d"
@@ -4156,14 +4164,6 @@ flush-write-stream@^1.0.0:
   dependencies:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
-
-fn-name@~2.0.1:
-  version "2.0.1"
-  resolved "https://registry.npm.taobao.org/fn-name/download/fn-name-2.0.1.tgz#5214d7537a4d06a4a301c0cc262feb84188002e7"
-
-fn-name@~3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npm.taobao.org/fn-name/download/fn-name-3.0.0.tgz#0596707f635929634d791f452309ab41558e3c5c"
 
 follow-redirects@^1.0.0, follow-redirects@^1.14.0:
   version "1.14.5"
@@ -4398,6 +4398,19 @@ getpass@^0.1.1:
   resolved "https://registry.npm.taobao.org/getpass/download/getpass-0.1.7.tgz#5eff8e3e684d569ae4cb2b1282604e8ba62149fa"
   dependencies:
     assert-plus "^1.0.0"
+
+git-up@^4.0.0:
+  version "4.0.5"
+  resolved "https://registry.npmmirror.com/git-up/download/git-up-4.0.5.tgz#e7bb70981a37ea2fb8fe049669800a1f9a01d759"
+  dependencies:
+    is-ssh "^1.3.0"
+    parse-url "^6.0.0"
+
+git-url-parse@^11.4.4:
+  version "11.6.0"
+  resolved "https://registry.npmmirror.com/git-url-parse/download/git-url-parse-11.6.0.tgz#c634b8de7faa66498a2b88932df31702c67df605"
+  dependencies:
+    git-up "^4.0.0"
 
 github-from-package@0.0.0:
   version "0.0.0"
@@ -4734,12 +4747,6 @@ homedir-polyfill@^1.0.1:
   resolved "https://registry.npm.taobao.org/homedir-polyfill/download/homedir-polyfill-1.0.3.tgz#743298cef4e5af3e194161fbadcc2151d3a058e8"
   dependencies:
     parse-passwd "^1.0.0"
-
-hosted-git-info@3.0.8:
-  version "3.0.8"
-  resolved "https://registry.nlark.com/hosted-git-info/download/hosted-git-info-3.0.8.tgz#6e35d4cc87af2c5f816e4cb9ce350ba87a3f370d"
-  dependencies:
-    lru-cache "^6.0.0"
 
 hpack.js@^2.1.6:
   version "2.1.6"
@@ -5243,6 +5250,10 @@ is-glob@^4.0.0, is-glob@^4.0.1, is-glob@~4.0.1:
   dependencies:
     is-extglob "^2.1.1"
 
+is-interactive@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.nlark.com/is-interactive/download/is-interactive-1.0.0.tgz#cea6e6ae5c870a7b0a0004070b7b587e0252912e"
+
 is-nan@^1.3.0:
   version "1.3.2"
   resolved "https://registry.npm.taobao.org/is-nan/download/is-nan-1.3.2.tgz#043a54adea31748b55b6cd4e09aadafa69bd9e1d"
@@ -5317,6 +5328,12 @@ is-shared-array-buffer@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/is-shared-array-buffer/download/is-shared-array-buffer-1.0.1.tgz#97b0c85fbdacb59c9c446fe653b82cf2b5b7cfe6"
 
+is-ssh@^1.3.0:
+  version "1.3.3"
+  resolved "https://registry.nlark.com/is-ssh/download/is-ssh-1.3.3.tgz#7f133285ccd7f2c2c7fc897b771b53d95a2b2c7e"
+  dependencies:
+    protocols "^1.1.0"
+
 is-stream@^1.1.0:
   version "1.1.0"
   resolved "https://registry.nlark.com/is-stream/download/is-stream-1.1.0.tgz#12d4a3dd4e68e0b79ceb8dbc84173ae80d91ca44"
@@ -5354,6 +5371,10 @@ is-unc-path@^1.0.0:
   resolved "https://registry.npm.taobao.org/is-unc-path/download/is-unc-path-1.0.0.tgz#d731e8898ed090a12c352ad2eaed5095ad322c9d"
   dependencies:
     unc-path-regex "^0.1.2"
+
+is-unicode-supported@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.nlark.com/is-unicode-supported/download/is-unicode-supported-0.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-unicode-supported%2Fdownload%2Fis-unicode-supported-0.1.0.tgz#3f26c76a809593b52bfa2ecb5710ed2779b522a7"
 
 is-valid-domain@0.0.17:
   version "0.0.17"
@@ -5905,7 +5926,7 @@ locate-path@^5.0.0:
   dependencies:
     p-locate "^4.1.0"
 
-lodash-es@^4.17.11, lodash-es@^4.17.21:
+lodash-es@^4.17.21:
   version "4.17.21"
   resolved "https://registry.npmmirror.com/lodash-es/download/lodash-es-4.17.21.tgz?cache=0&sync_timestamp=1632811853027&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Flodash-es%2Fdownload%2Flodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
 
@@ -5957,19 +5978,16 @@ lodash.xorby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.npmmirror.com/lodash.xorby/download/lodash.xorby-4.7.0.tgz#9c19a6f9f063a6eb53dd03c1b6871799801463d7"
 
-lodash@4.17.20:
-  version "4.17.20"
-  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
-
 lodash@4.17.21, lodash@^4.1.1, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.3, lodash@^4.17.4:
   version "4.17.21"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
 
-log-symbols@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.npm.taobao.org/log-symbols/download/log-symbols-2.2.0.tgz?cache=0&sync_timestamp=1618723242212&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flog-symbols%2Fdownload%2Flog-symbols-2.2.0.tgz#5740e1c5d6f0dfda4ad9323b5332107ef6b4c40a"
+log-symbols@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/log-symbols/download/log-symbols-4.1.0.tgz?cache=0&sync_timestamp=1618723242212&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flog-symbols%2Fdownload%2Flog-symbols-4.1.0.tgz#3fbdbb95b4683ac9fc785111e792e558d4abd503"
   dependencies:
-    chalk "^2.0.1"
+    chalk "^4.1.0"
+    is-unicode-supported "^0.1.0"
 
 loglevel@^1.6.7, loglevel@^1.6.8:
   version "1.8.0"
@@ -6216,6 +6234,10 @@ mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-1.2.0.tgz?cache=0&sync_timestamp=1617823691963&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmimic-fn%2Fdownload%2Fmimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
 
+mimic-fn@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/mimic-fn/download/mimic-fn-2.1.0.tgz?cache=0&sync_timestamp=1617823691963&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fmimic-fn%2Fdownload%2Fmimic-fn-2.1.0.tgz#7ed2c2ccccaf84d3ffcb7a69b57711fc2083401b"
+
 mimic-response@^1.0.0, mimic-response@^1.0.1:
   version "1.0.1"
   resolved "https://registry.nlark.com/mimic-response/download/mimic-response-1.0.1.tgz?cache=0&sync_timestamp=1628692495204&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fmimic-response%2Fdownload%2Fmimic-response-1.0.1.tgz#4923538878eef42063cb8a3e3b0798781487ab1b"
@@ -6438,6 +6460,10 @@ nano-time@1.0.0:
   dependencies:
     big-integer "^1.6.16"
 
+nanoclone@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmmirror.com/nanoclone/download/nanoclone-0.2.1.tgz#dd4090f8f1a110d26bb32c49ed2f5b9235209ed4"
+
 nanoid@^3.1.30:
   version "3.1.30"
   resolved "https://registry.npmmirror.com/nanoid/download/nanoid-3.1.30.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fnanoid%2Fdownload%2Fnanoid-3.1.30.tgz#63f93cc548d2a113dc5dfbc63bfa09e2b9b64362"
@@ -6640,6 +6666,10 @@ normalize-url@^4.1.0:
   version "4.5.1"
   resolved "https://registry.nlark.com/normalize-url/download/normalize-url-4.5.1.tgz?cache=0&sync_timestamp=1631256008048&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnormalize-url%2Fdownload%2Fnormalize-url-4.5.1.tgz#0dd90cf1288ee1d1313b87081c9a5932ee48518a"
 
+normalize-url@^6.1.0:
+  version "6.1.0"
+  resolved "https://registry.nlark.com/normalize-url/download/normalize-url-6.1.0.tgz?cache=0&sync_timestamp=1631256008048&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fnormalize-url%2Fdownload%2Fnormalize-url-6.1.0.tgz#40d0885b535deffe3f3147bec877d05fe4c5668a"
+
 npm-bundled@^1.0.1:
   version "1.1.2"
   resolved "https://registry.nlark.com/npm-bundled/download/npm-bundled-1.1.2.tgz#944c78789bd739035b70baa2ca5cc32b8d860bc1"
@@ -6813,6 +6843,12 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+onetime@^5.1.0:
+  version "5.1.2"
+  resolved "https://registry.nlark.com/onetime/download/onetime-5.1.2.tgz#d0e96ebb56b07476df1dd9c4806e5237985ca45e"
+  dependencies:
+    mimic-fn "^2.1.0"
+
 only@~0.0.2:
   version "0.0.2"
   resolved "https://registry.npmmirror.com/only/download/only-0.0.2.tgz#2afde84d03e50b9a8edc444e30610a70295edfb4"
@@ -6833,15 +6869,18 @@ optional-require@^1.1.8:
   dependencies:
     require-at "^1.0.6"
 
-ora@^3.0.0, ora@^3.4.0:
-  version "3.4.0"
-  resolved "https://registry.nlark.com/ora/download/ora-3.4.0.tgz#bf0752491059a3ef3ed4c85097531de9fdbcd318"
+ora@^5.4.0:
+  version "5.4.1"
+  resolved "https://registry.nlark.com/ora/download/ora-5.4.1.tgz#1b2678426af4ac4a509008e5e4ac9e9959db9e18"
   dependencies:
-    chalk "^2.4.2"
-    cli-cursor "^2.1.0"
-    cli-spinners "^2.0.0"
-    log-symbols "^2.2.0"
-    strip-ansi "^5.2.0"
+    bl "^4.1.0"
+    chalk "^4.1.0"
+    cli-cursor "^3.1.0"
+    cli-spinners "^2.5.0"
+    is-interactive "^1.0.0"
+    is-unicode-supported "^0.1.0"
+    log-symbols "^4.1.0"
+    strip-ansi "^6.0.0"
     wcwidth "^1.0.1"
 
 original@^1.0.0:
@@ -6968,9 +7007,27 @@ parse-passwd@^1.0.0:
   version "1.0.0"
   resolved "https://registry.nlark.com/parse-passwd/download/parse-passwd-1.0.0.tgz#6d5b934a456993b23d37f40a382d6f1666a8e5c6"
 
+parse-path@^4.0.0:
+  version "4.0.3"
+  resolved "https://registry.npmmirror.com/parse-path/download/parse-path-4.0.3.tgz#82d81ec3e071dcc4ab49aa9f2c9c0b8966bb22bf"
+  dependencies:
+    is-ssh "^1.3.0"
+    protocols "^1.4.0"
+    qs "^6.9.4"
+    query-string "^6.13.8"
+
 parse-srcset@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmmirror.com/parse-srcset/download/parse-srcset-1.0.2.tgz#f2bd221f6cc970a938d88556abc589caaaa2bde1"
+
+parse-url@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.npmmirror.com/parse-url/download/parse-url-6.0.0.tgz#f5dd262a7de9ec00914939220410b66cff09107d"
+  dependencies:
+    is-ssh "^1.3.0"
+    normalize-url "^6.1.0"
+    parse-path "^4.0.0"
+    protocols "^1.4.0"
 
 parseurl@^1.3.2, parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
@@ -7359,13 +7416,13 @@ prop-types@^15.5.0, prop-types@^15.5.10, prop-types@^15.5.8, prop-types@^15.6.0,
     object-assign "^4.1.1"
     react-is "^16.8.1"
 
-property-expr@^1.5.0:
-  version "1.5.1"
-  resolved "https://registry.npm.taobao.org/property-expr/download/property-expr-1.5.1.tgz#22e8706894a0c8e28d58735804f6ba3a3673314f"
-
-property-expr@^2.0.2:
+property-expr@^2.0.4:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/property-expr/download/property-expr-2.0.4.tgz#37b925478e58965031bb612ec5b3260f8241e910"
+
+protocols@^1.1.0, protocols@^1.4.0:
+  version "1.4.8"
+  resolved "https://registry.npmmirror.com/protocols/download/protocols-1.4.8.tgz#48eea2d8f58d9644a4a32caae5d5db290a075ce8"
 
 proxy-addr@~2.0.5:
   version "2.0.7"
@@ -7435,7 +7492,7 @@ purest@3.1.0:
     "@request/api" "^0.6.0"
     extend "^3.0.0"
 
-qs@6.10.1, qs@^6.10.1, qs@^6.4.0, qs@^6.5.2, qs@^6.9.6:
+qs@6.10.1, qs@^6.10.1, qs@^6.4.0, qs@^6.5.2, qs@^6.9.4, qs@^6.9.6:
   version "6.10.1"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.10.1.tgz?cache=0&sync_timestamp=1616385371256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqs%2Fdownload%2Fqs-6.10.1.tgz#4931482fa8d647a5aab799c5271d2133b981fb6a"
   dependencies:
@@ -7448,6 +7505,15 @@ qs@6.7.0:
 qs@~6.5.2:
   version "6.5.2"
   resolved "https://registry.npm.taobao.org/qs/download/qs-6.5.2.tgz?cache=0&sync_timestamp=1616385371256&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fqs%2Fdownload%2Fqs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
+
+query-string@^6.13.8:
+  version "6.14.1"
+  resolved "https://registry.nlark.com/query-string/download/query-string-6.14.1.tgz#7ac2dca46da7f309449ba0f86b1fd28255b0c86a"
+  dependencies:
+    decode-uri-component "^0.2.0"
+    filter-obj "^1.1.0"
+    split-on-first "^1.0.0"
+    strict-uri-encode "^2.0.0"
 
 querystring-es3@^0.2.0:
   version "0.2.1"
@@ -7741,9 +7807,9 @@ react-side-effect@^2.1.0:
   version "2.1.1"
   resolved "https://registry.npmmirror.com/react-side-effect/download/react-side-effect-2.1.1.tgz#66c5701c3e7560ab4822a4ee2742dee215d72eb3"
 
-react-tooltip@4.2.17:
-  version "4.2.17"
-  resolved "https://registry.npmmirror.com/react-tooltip/download/react-tooltip-4.2.17.tgz#4884ce253ab298ee395950b24b752282efa8ac5d"
+react-tooltip@4.2.18:
+  version "4.2.18"
+  resolved "https://registry.npmmirror.com/react-tooltip/download/react-tooltip-4.2.18.tgz#2fb8c5e115c4e5476f94081f4bb2ba77f5b2297f"
   dependencies:
     prop-types "^15.7.2"
     uuid "^7.0.3"
@@ -8188,6 +8254,13 @@ restore-cursor@^2.0.0:
   resolved "https://registry.nlark.com/restore-cursor/download/restore-cursor-2.0.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frestore-cursor%2Fdownload%2Frestore-cursor-2.0.0.tgz#9f7ee287f82fd326d4fd162923d62129eee0dfaf"
   dependencies:
     onetime "^2.0.0"
+    signal-exit "^3.0.2"
+
+restore-cursor@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.nlark.com/restore-cursor/download/restore-cursor-3.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Frestore-cursor%2Fdownload%2Frestore-cursor-3.1.0.tgz#39f67c54b3a7a58cea5236d95cf0034239631f7e"
+  dependencies:
+    onetime "^5.1.0"
     signal-exit "^3.0.2"
 
 ret@~0.1.10:
@@ -8675,6 +8748,10 @@ spdy@^4.0.2:
     select-hose "^2.0.0"
     spdy-transport "^3.0.0"
 
+split-on-first@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/split-on-first/download/split-on-first-1.1.0.tgz#f610afeee3b12bce1d0c30425e76398b78249a5f"
+
 split-string@^3.0.1, split-string@^3.0.2:
   version "3.1.0"
   resolved "https://registry.npm.taobao.org/split-string/download/split-string-3.1.0.tgz#7cb09dda3a86585705c64b39a6466038682e8fe2"
@@ -8751,11 +8828,11 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^3.1.1"
 
-strapi-admin@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-admin/download/strapi-admin-3.6.1.tgz#8b051c6a36ef5f3b0cc1c23cc5cd2f179ce07bf8"
+strapi-admin@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-admin/download/strapi-admin-3.6.8.tgz#0000f07c8004c7110b49abb1757f50ab9d751a92"
   dependencies:
-    "@babel/core" "^7.13.16"
+    "@babel/core" "^7.14.0"
     "@babel/plugin-proposal-async-generator-functions" "^7.13.15"
     "@babel/plugin-proposal-class-properties" "^7.12.1"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
@@ -8765,14 +8842,14 @@ strapi-admin@3.6.1:
     "@babel/preset-env" "^7.13.15"
     "@babel/preset-react" "^7.13.13"
     "@babel/runtime" "^7.13.17"
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@casl/ability" "^4.1.5"
-    "@fingerprintjs/fingerprintjs" "3.0.7"
+    "@fingerprintjs/fingerprintjs" "3.1.1"
     "@fortawesome/fontawesome-free" "^5.15.3"
     "@fortawesome/fontawesome-svg-core" "^1.2.35"
     "@fortawesome/free-brands-svg-icons" "^5.15.3"
@@ -8831,7 +8908,7 @@ strapi-admin@3.6.1:
     react-router "^5.2.0"
     react-router-dom "^5.0.0"
     react-select "^4.0.2"
-    react-tooltip "4.2.17"
+    react-tooltip "4.2.18"
     react-transition-group "4.4.1"
     react-virtualized "^9.22.3"
     reactstrap "8.4.1"
@@ -8842,8 +8919,8 @@ strapi-admin@3.6.1:
     sanitize.css "^4.1.0"
     semver "7.3.5"
     sift "13.5.0"
-    strapi-helper-plugin "3.6.1"
-    strapi-utils "3.6.1"
+    strapi-helper-plugin "3.6.8"
+    strapi-utils "3.6.8"
     style-loader "^0.23.1"
     styled-components "^5.2.3"
     terser-webpack-plugin "^1.2.3"
@@ -8853,11 +8930,11 @@ strapi-admin@3.6.1:
     webpack-cli "^3.3.12"
     webpack-dev-server "^3.11.2"
     webpackbar "^4.0.0"
-    yup "^0.27.0"
+    yup "^0.32.9"
 
-strapi-connector-bookshelf@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-connector-bookshelf/download/strapi-connector-bookshelf-3.6.1.tgz#011a710a4c370b549723e76f4387420b78f34b23"
+strapi-connector-bookshelf@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-connector-bookshelf/download/strapi-connector-bookshelf-3.6.8.tgz#95767ffa9631d08b24fb705fc076df4e0e6b01f0"
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.19.0"
@@ -8866,100 +8943,100 @@ strapi-connector-bookshelf@3.6.1:
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.2"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-database@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-database/download/strapi-database-3.6.1.tgz#4eab376c0702fe3958c55efbde3ccf71b09469ae"
+strapi-database@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-database/download/strapi-database-3.6.8.tgz#94a99a06e762d4f2ad5d2db173c75ab0db3ac1e2"
   dependencies:
     debug "4.3.1"
     lodash "4.17.21"
     p-map "4.0.0"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
     verror "^1.10.0"
 
-strapi-generate-api@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-api/download/strapi-generate-api-3.6.1.tgz#ded45807c76cd78513adedac76338efdc0a048f6"
+strapi-generate-api@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-api/download/strapi-generate-api-3.6.8.tgz#e198e868e873e9134b1c1c1b71a2111e4c3edbba"
   dependencies:
     lodash "4.17.21"
     pluralize "^8.0.0"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate-controller@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-controller/download/strapi-generate-controller-3.6.1.tgz#ac0626b6a5359a7942d5fb020eed502ed5878b36"
+strapi-generate-controller@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-controller/download/strapi-generate-controller-3.6.8.tgz#294019f6e46490047d02a501bcc63d64c55c023d"
   dependencies:
     lodash "4.17.21"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate-model@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-model/download/strapi-generate-model-3.6.1.tgz#e614cfc8a57c90e3ad1f77d1062d11d89fdbf336"
+strapi-generate-model@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-model/download/strapi-generate-model-3.6.8.tgz#ddfde9500b9f25aecd07f62c259e8c5bb1435e7b"
   dependencies:
     lodash "4.17.21"
     pluralize "^8.0.0"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate-new@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-new/download/strapi-generate-new-3.6.1.tgz#ec054f868001370ac7a346f825f7f34a530d4183"
+strapi-generate-new@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-new/download/strapi-generate-new-3.6.8.tgz#44069ae6fa494ece3d86319084d547d38360de05"
   dependencies:
     "@sentry/node" "6.3.0"
     chalk "^4.1.1"
     execa "^1.0.0"
     fs-extra "^9.1.0"
-    hosted-git-info "3.0.8"
+    git-url-parse "^11.4.4"
     inquirer "^6.3.1"
     lodash "4.17.21"
     node-fetch "^2.6.1"
     node-machine-id "^1.1.10"
-    ora "^3.4.0"
-    tar "6.1.0"
+    ora "^5.4.0"
+    tar "6.1.4"
     uuid "^3.3.2"
 
-strapi-generate-plugin@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-plugin/download/strapi-generate-plugin-3.6.1.tgz#d54bd53c4f00f4683ee25a20608dc068864b84ef"
+strapi-generate-plugin@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-plugin/download/strapi-generate-plugin-3.6.8.tgz#c82e7e4ffb6e11ab0ded7109c33b858bd9130470"
   dependencies:
     fs-extra "^9.1.0"
     lodash "4.17.21"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate-policy@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-policy/download/strapi-generate-policy-3.6.1.tgz#73624be939d6b181a0e7ba7b7189d28020d3e2db"
+strapi-generate-policy@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-policy/download/strapi-generate-policy-3.6.8.tgz#87641e5ce2aca459ac4e62ce23115306bb04dfa9"
   dependencies:
     lodash "4.17.21"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate-service@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate-service/download/strapi-generate-service-3.6.1.tgz#efd939cb3bf4ba32e751c10d21f0b377f5e748ef"
+strapi-generate-service@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate-service/download/strapi-generate-service-3.6.8.tgz#bdb1ce416d8e92ad48393f3f1c13f898766f37bb"
   dependencies:
     lodash "4.17.21"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-generate@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-generate/download/strapi-generate-3.6.1.tgz#d6a802a9f34a80c2f638450dfdf45f861d5bd826"
+strapi-generate@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-generate/download/strapi-generate-3.6.8.tgz#54a7b8bf84f807dd654d32554201c28bc62d445f"
   dependencies:
     async "^2.6.2"
     fs-extra "^9.1.0"
     lodash "4.17.21"
     reportback "^2.0.2"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-helper-plugin@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-helper-plugin/download/strapi-helper-plugin-3.6.1.tgz#3f77b364a04022650b473f47bf355a93cf55de02"
+strapi-helper-plugin@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-helper-plugin/download/strapi-helper-plugin-3.6.8.tgz#29a6ff49ef1fe5021d9a24e566a375d357f450ae"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@fortawesome/fontawesome-free" "^5.15.2"
     "@fortawesome/fontawesome-svg-core" "^1.2.35"
     "@fortawesome/free-brands-svg-icons" "^5.15.2"
@@ -8981,16 +9058,16 @@ strapi-helper-plugin@3.6.1:
     styled-components "^5.2.3"
     whatwg-fetch "^3.6.2"
 
-strapi-plugin-content-manager@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-content-manager/download/strapi-plugin-content-manager-3.6.1.tgz#3d078b0d1aaf664f6f2122b06df78a94ed4c12bc"
+strapi-plugin-content-manager@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-content-manager/download/strapi-plugin-content-manager-3.6.8.tgz#fe46aeea0b55bbdc9d06c6c9fcdf27cdfee29a31"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@sindresorhus/slugify" "1.1.0"
     classnames "^2.3.1"
     codemirror "^5.61.0"
@@ -9021,20 +9098,20 @@ strapi-plugin-content-manager@3.6.1:
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
     sanitize-html "2.3.3"
-    strapi-helper-plugin "3.6.1"
-    strapi-utils "3.6.1"
-    yup "^0.27.0"
+    strapi-helper-plugin "3.6.8"
+    strapi-utils "3.6.8"
+    yup "^0.32.9"
 
-strapi-plugin-content-type-builder@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-content-type-builder/download/strapi-plugin-content-type-builder-3.6.1.tgz#82a5270bd188040f23b325477f3f5dd02bca2766"
+strapi-plugin-content-type-builder@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-content-type-builder/download/strapi-plugin-content-type-builder-3.6.8.tgz#dcfbbec823d997e1f103c64f2b05e53914d46090"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@sindresorhus/slugify" "1.1.0"
     fs-extra "^9.1.0"
     immutable "^3.8.2"
@@ -9050,27 +9127,27 @@ strapi-plugin-content-type-builder@3.6.1:
     redux "^4.0.1"
     redux-immutable "^4.0.0"
     reselect "^4.0.0"
-    strapi-generate "3.6.1"
-    strapi-generate-api "3.6.1"
-    strapi-helper-plugin "3.6.1"
-    strapi-utils "3.6.1"
-    yup "^0.27.0"
+    strapi-generate "3.6.8"
+    strapi-generate-api "3.6.8"
+    strapi-helper-plugin "3.6.8"
+    strapi-utils "3.6.8"
+    yup "^0.32.9"
 
-strapi-plugin-email@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-email/download/strapi-plugin-email-3.6.1.tgz#ea650443842db4b2ed4769be4f4a82d04b2ec085"
+strapi-plugin-email@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-email/download/strapi-plugin-email-3.6.8.tgz#81a26ff62e4ccfcb802e92bbf3e3a485d0a57e9f"
   dependencies:
     lodash "4.17.21"
-    strapi-provider-email-sendmail "3.6.1"
-    strapi-utils "3.6.1"
+    strapi-provider-email-sendmail "3.6.8"
+    strapi-utils "3.6.8"
 
-strapi-plugin-graphql@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-graphql/download/strapi-plugin-graphql-3.6.1.tgz#2d9fde5243182a6ac556a004994ac2f762c68fcb"
+strapi-plugin-graphql@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-graphql/download/strapi-plugin-graphql-3.6.8.tgz#b00bda2c98d4e4ecc07b01eb1bb78fda551d06a9"
   dependencies:
     "@apollo/federation" "^0.20.7"
     "@graphql-tools/utils" "7.2.4"
-    apollo-server-koa "2.23.0"
+    apollo-server-koa "2.24.0"
     dataloader "^1.4.0"
     glob "^7.1.6"
     graphql "15.5.0"
@@ -9084,18 +9161,18 @@ strapi-plugin-graphql@3.6.1:
     koa-compose "^4.1.0"
     lodash "4.17.21"
     pluralize "^8.0.0"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
-strapi-plugin-upload@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-upload/download/strapi-plugin-upload-3.6.1.tgz#86a2c44cea4bc95427f857889c5d4e2ca80d3976"
+strapi-plugin-upload@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-upload/download/strapi-plugin-upload-3.6.8.tgz#5bc02fb299ccc62a909b273b2f51aedf607c7032"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     byte-size "^7.0.1"
     cropperjs "^1.5.11"
     immer "^8.0.1"
@@ -9114,22 +9191,22 @@ strapi-plugin-upload@3.6.1:
     react-router-dom "^5.0.0"
     reactstrap "8.4.1"
     sharp "0.28.1"
-    strapi-helper-plugin "3.6.1"
-    strapi-provider-upload-local "3.6.1"
-    strapi-utils "3.6.1"
+    strapi-helper-plugin "3.6.8"
+    strapi-provider-upload-local "3.6.8"
+    strapi-utils "3.6.8"
     stream-to-array "^2.3.0"
     uuid "^3.2.1"
 
-strapi-plugin-users-permissions@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-plugin-users-permissions/download/strapi-plugin-users-permissions-3.6.1.tgz#bdd62cb828dc0ebafb3a2fa186dc911ba5873ae6"
+strapi-plugin-users-permissions@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-plugin-users-permissions/download/strapi-plugin-users-permissions-3.6.8.tgz#7a46c73bb19881607afae3c527eca8835d532210"
   dependencies:
-    "@buffetjs/core" "3.3.5"
-    "@buffetjs/custom" "3.3.5"
-    "@buffetjs/hooks" "3.3.5"
-    "@buffetjs/icons" "3.3.5"
-    "@buffetjs/styles" "3.3.5"
-    "@buffetjs/utils" "3.3.5"
+    "@buffetjs/core" "3.3.8"
+    "@buffetjs/custom" "3.3.8"
+    "@buffetjs/hooks" "3.3.8"
+    "@buffetjs/icons" "3.3.8"
+    "@buffetjs/styles" "3.3.8"
+    "@buffetjs/utils" "3.3.8"
     "@purest/providers" "^1.0.2"
     bcryptjs "^2.4.3"
     grant-koa "5.4.8"
@@ -9147,16 +9224,16 @@ strapi-plugin-users-permissions@3.6.1:
     reactstrap "8.4.1"
     redux-saga "^0.16.0"
     request "^2.83.0"
-    strapi-helper-plugin "3.6.1"
-    strapi-utils "3.6.1"
+    strapi-helper-plugin "3.6.8"
+    strapi-utils "3.6.8"
     uuid "^3.1.0"
 
-strapi-provider-email-sendmail@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-provider-email-sendmail/download/strapi-provider-email-sendmail-3.6.1.tgz#f7c572738b204c9d3ec38a9a8ca8a677e6a8ae3f"
+strapi-provider-email-sendmail@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-provider-email-sendmail/download/strapi-provider-email-sendmail-3.6.8.tgz#6b9f6db31dee6656e4f09fa20479bcb9b6abf87d"
   dependencies:
     sendmail "^1.6.1"
-    strapi-utils "3.6.1"
+    strapi-utils "3.6.8"
 
 strapi-provider-upload-aws-s3@^3.6.8:
   version "3.6.8"
@@ -9165,24 +9242,24 @@ strapi-provider-upload-aws-s3@^3.6.8:
     aws-sdk "2.892.0"
     lodash "4.17.21"
 
-strapi-provider-upload-local@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-provider-upload-local/download/strapi-provider-upload-local-3.6.1.tgz#d24bd23bf5db6778ce800898d3c21a9f92721872"
+strapi-provider-upload-local@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-provider-upload-local/download/strapi-provider-upload-local-3.6.8.tgz#4666269e96f2ae878f366ae091d09ea69fb0237b"
 
-strapi-utils@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi-utils/download/strapi-utils-3.6.1.tgz#db6ef96b2db1e239ecc38ec61a2baec86d64da0d"
+strapi-utils@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi-utils/download/strapi-utils-3.6.8.tgz#699bcd080117df526dfb7935115e47e1877d888a"
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.19.0"
     lodash "4.17.21"
     pino "^4.7.1"
     pluralize "^8.0.0"
-    yup "0.29.3"
+    yup "^0.32.9"
 
-strapi@3.6.1:
-  version "3.6.1"
-  resolved "https://registry.npmmirror.com/strapi/download/strapi-3.6.1.tgz#e78d96e5c4dd87ef03c4e1591653d74cc57bf0fa"
+strapi@3.6.8:
+  version "3.6.8"
+  resolved "https://registry.npmmirror.com/strapi/download/strapi-3.6.8.tgz#91b349ca177ae7746d0aed5bcbd0d1a8e4c57c0f"
   dependencies:
     "@koa/cors" "^3.0.0"
     async "^2.1.2"
@@ -9221,22 +9298,22 @@ strapi@3.6.1:
     node-machine-id "1.1.12"
     node-schedule "1.3.2"
     opn "^5.3.0"
-    ora "^3.0.0"
+    ora "^5.4.0"
     package-json "6.5.0"
     qs "^6.10.1"
     resolve-cwd "^3.0.0"
     rimraf "^3.0.2"
     semver "7.3.5"
-    strapi-database "3.6.1"
-    strapi-generate "3.6.1"
-    strapi-generate-api "3.6.1"
-    strapi-generate-controller "3.6.1"
-    strapi-generate-model "3.6.1"
-    strapi-generate-new "3.6.1"
-    strapi-generate-plugin "3.6.1"
-    strapi-generate-policy "3.6.1"
-    strapi-generate-service "3.6.1"
-    strapi-utils "3.6.1"
+    strapi-database "3.6.8"
+    strapi-generate "3.6.8"
+    strapi-generate-api "3.6.8"
+    strapi-generate-controller "3.6.8"
+    strapi-generate-model "3.6.8"
+    strapi-generate-new "3.6.8"
+    strapi-generate-plugin "3.6.8"
+    strapi-generate-policy "3.6.8"
+    strapi-generate-service "3.6.8"
+    strapi-utils "3.6.8"
 
 stream-browserify@^2.0.1:
   version "2.0.2"
@@ -9279,6 +9356,10 @@ stream-to-array@^2.3.0:
 streamsearch@0.1.2:
   version "0.1.2"
   resolved "https://registry.npm.taobao.org/streamsearch/download/streamsearch-0.1.2.tgz#808b9d0e56fc273d809ba57338e929919a1a9f1a"
+
+strict-uri-encode@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npm.taobao.org/strict-uri-encode/download/strict-uri-encode-2.0.0.tgz#b9c7330c7042862f6b142dc274bbcc5866ce3546"
 
 string-width@^1.0.1:
   version "1.0.2"
@@ -9437,10 +9518,6 @@ symbol-observable@^1.0.4:
   version "1.2.0"
   resolved "https://registry.nlark.com/symbol-observable/download/symbol-observable-1.2.0.tgz#c22688aed4eab3cdc2dfeacbb561660560a00804"
 
-synchronous-promise@^2.0.13, synchronous-promise@^2.0.6:
-  version "2.0.15"
-  resolved "https://registry.npmmirror.com/synchronous-promise/download/synchronous-promise-2.0.15.tgz#07ca1822b9de0001f5ff73595f3d08c4f720eb8e"
-
 tapable@^1.0.0, tapable@^1.1.3:
   version "1.1.3"
   resolved "https://registry.nlark.com/tapable/download/tapable-1.1.3.tgz#a1fccc06b58db61fd7a45da2da44f5f3a3e67ba2"
@@ -9464,9 +9541,9 @@ tar-stream@^2.1.4:
     inherits "^2.0.3"
     readable-stream "^3.1.1"
 
-tar@6.1.0:
-  version "6.1.0"
-  resolved "https://registry.nlark.com/tar/download/tar-6.1.0.tgz?cache=0&sync_timestamp=1629999740650&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftar%2Fdownload%2Ftar-6.1.0.tgz#d1724e9bcc04b977b18d5c573b333a2207229a83"
+tar@6.1.4:
+  version "6.1.4"
+  resolved "https://registry.nlark.com/tar/download/tar-6.1.4.tgz?cache=0&sync_timestamp=1629999740650&other_urls=https%3A%2F%2Fregistry.nlark.com%2Ftar%2Fdownload%2Ftar-6.1.4.tgz#9f0722b772a5e00dba7d52e1923b37a7ec3799b3"
   dependencies:
     chownr "^2.0.0"
     fs-minipass "^2.0.0"
@@ -10323,27 +10400,16 @@ ylru@^1.2.0:
   version "1.2.1"
   resolved "https://registry.npm.taobao.org/ylru/download/ylru-1.2.1.tgz#f576b63341547989c1de7ba288760923b27fe84f"
 
-yup@0.29.3:
-  version "0.29.3"
-  resolved "https://registry.npmmirror.com/yup/download/yup-0.29.3.tgz#69a30fd3f1c19f5d9e31b1cf1c2b851ce8045fea"
+yup@^0.32.9:
+  version "0.32.11"
+  resolved "https://registry.npmmirror.com/yup/download/yup-0.32.11.tgz#d67fb83eefa4698607982e63f7ca4c5ed3cf18c5"
   dependencies:
-    "@babel/runtime" "^7.10.5"
-    fn-name "~3.0.0"
-    lodash "^4.17.15"
-    lodash-es "^4.17.11"
-    property-expr "^2.0.2"
-    synchronous-promise "^2.0.13"
-    toposort "^2.0.2"
-
-yup@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.npmmirror.com/yup/download/yup-0.27.0.tgz#f8cb198c8e7dd2124beddc2457571329096b06e7"
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    fn-name "~2.0.1"
-    lodash "^4.17.11"
-    property-expr "^1.5.0"
-    synchronous-promise "^2.0.6"
+    "@babel/runtime" "^7.15.4"
+    "@types/lodash" "^4.14.175"
+    lodash "^4.17.21"
+    lodash-es "^4.17.21"
+    nanoclone "^0.2.1"
+    property-expr "^2.0.4"
     toposort "^2.0.2"
 
 zen-observable-ts@^0.8.21:
