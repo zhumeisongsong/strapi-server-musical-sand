@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "strapi-server-musical-sand",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,24 +11,26 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "0.21.18",
+    "pg": "^8.7.1",
+    "pg-connection-string": "^2.5.0",
+    "sqlite3": "5.0.0",
     "strapi": "3.6.8",
     "strapi-admin": "3.6.8",
-    "strapi-utils": "3.6.8",
-    "strapi-plugin-content-type-builder": "3.6.8",
-    "strapi-plugin-content-manager": "3.6.8",
-    "strapi-plugin-users-permissions": "3.6.8",
-    "strapi-plugin-email": "3.6.8",
-    "strapi-plugin-upload": "3.6.8",
-    "strapi-plugin-i18n": "3.6.8",
     "strapi-connector-bookshelf": "3.6.8",
-    "knex": "0.21.18",
-    "sqlite3": "5.0.0"
+    "strapi-plugin-content-manager": "3.6.8",
+    "strapi-plugin-content-type-builder": "3.6.8",
+    "strapi-plugin-email": "3.6.8",
+    "strapi-plugin-i18n": "3.6.8",
+    "strapi-plugin-upload": "3.6.8",
+    "strapi-plugin-users-permissions": "3.6.8",
+    "strapi-utils": "3.6.8"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "bec4d32e-3a3d-42f8-b345-f0cca480a98c"
+    "uuid": "a84d58f2-55a0-4c22-aed1-8ebe05eeb86b"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

@@ -112,3 +112,9 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+.DS_Store
+
+# Even if it is usually recommended to version this file, it may create issues on Heroku.
+package-lock.json
+
