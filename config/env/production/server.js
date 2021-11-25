@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  url: env('https://my-cms-server.herokuapp.com/'),
+  url: env('MY_HEROKU_URL'),
 });
 
  
